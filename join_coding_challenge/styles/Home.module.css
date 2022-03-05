@@ -3,6 +3,7 @@
 }
 
 .main {
+  outline: 2px solid blue;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -66,6 +67,7 @@
 }
 
 .grid {
+  outline: 2px solid green;
   display: flex;
   align-items: center;
   justify-content: center;

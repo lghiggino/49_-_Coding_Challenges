@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//
+import CaseDescriptionCard from '../src/CaseDescriptionCard/CaseDescriptionCard'
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -52,6 +55,18 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
+
+      <div>
+        <CaseDescriptionCard
+          imageHref='https://m.media-amazon.com/images/I/61B3Y56jKAS._AC_SL1024_.jpg'
+          title='Stolen 2015 Gepida Alboin crs500 (silver, gray or bare metal)'
+          description= 'Locked cellar in Warthestrasse 8, Kryptonite U-lock with cable both tyres locked to frame. Someone got in and took the whole thing as well as forced some storage doors open.'
+          theftDate= 'Tue NOV 27 2018'
+          reportDate='Thu NOV 29 2018'
+          location= 'Berlin, 10405, DE'
+        />
+      </div>
+
 
       <footer className={styles.footer}>
         <a

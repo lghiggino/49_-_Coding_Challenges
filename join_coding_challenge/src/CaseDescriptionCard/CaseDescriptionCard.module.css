@@ -1,0 +1,42 @@
+/* 
+xs, extra-pequeno: 0px
+sm, pequeno: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px
+*/
+
+.caseDescriptionCard {
+    outline: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 100%;
+}
+
+.imageContainer {
+    width: 20%;
+}
+
+.textContainer {
+    max-width: 80%;
+}
+
+.error {
+    color: white;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 1536px) {}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 900px) {}
+@media screen and (max-width: 600px) {}
