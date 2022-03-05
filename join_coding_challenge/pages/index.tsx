@@ -1,4 +1,6 @@
 import type { NextPage } from 'next'
+import { useState, useEffect } from 'react'
+import axios from 'axios'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -7,6 +9,54 @@ import styles from '../styles/Home.module.css'
 import CaseDescriptionCard from '../src/CaseDescriptionCard/CaseDescriptionCard'
 
 const Home: NextPage = () => {
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(false)
+  const [data, setData] = useState<IBikeIndexApiResponse[]>([])
+
+  type IBikeIndexApiResponse = {
+    date_stolen: number
+    description: null | string
+    external_id: null | string
+    frame_colors: string[]
+    frame_model: string
+    id: number
+    is_stock_img: boolean
+    large_img: null | string
+    location_found: null | string
+    manufacturer_name: string
+    registry_name: null | string
+    registry_url: null | string
+    serial: string
+    status: string
+    stolen: boolean
+    stolen_coordinates: number[]
+    stolen_location: string
+    thumb: null | string
+    title: string
+    url: string
+    year: number
+  }
+
+  async function getBikeData() {
+    try {
+      setLoading(true)
+      const res = await axios.get('https://bikeindex.org:443/api/v3/search?page=1&per_page=25&location=berlin&distance=10&stolenness=proximity&access_token=tBQAZsPJNudDfRh-B_ALGPnt2MOcga3s0J_XpmhP82E')
+      setData(res.data.bikes)
+    } catch (error) {
+      setError(true)
+      setData([])
+      return
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    getBikeData()
+  }, [])
+
+  console.log("axiosData >>", data)
+
   return (
     <div className={styles.container}>
       <Head>
@@ -57,13 +107,23 @@ const Home: NextPage = () => {
       </main>
 
       <div>
+        {data && data.map(item => (
+          <CaseDescriptionCard
+            imageHref={item.large_img || 'https://m.media-amazon.com/images/I/61B3Y56jKAS._AC_SL1024_.jpg'}
+            title={item.title}
+            description={item.description}
+            theftDate={item.date_stolen}
+            reportDate={item.year}
+            location={item.stolen_location}
+          />
+        ))}
         <CaseDescriptionCard
           imageHref='https://m.media-amazon.com/images/I/61B3Y56jKAS._AC_SL1024_.jpg'
           title='Stolen 2015 Gepida Alboin crs500 (silver, gray or bare metal)'
-          description= 'Locked cellar in Warthestrasse 8, Kryptonite U-lock with cable both tyres locked to frame. Someone got in and took the whole thing as well as forced some storage doors open.'
-          theftDate= 'Tue NOV 27 2018'
+          description='Locked cellar in Warthestrasse 8, Kryptonite U-lock with cable both tyres locked to frame. Someone got in and took the whole thing as well as forced some storage doors open.'
+          theftDate='Tue NOV 27 2018'
           reportDate='Thu NOV 29 2018'
-          location= 'Berlin, 10405, DE'
+          location='Berlin, 10405, DE'
         />
       </div>
 
