@@ -2,12 +2,12 @@ import Image from 'next/image'
 import styles from './CaseDescriptionCard.module.css'
 
 type ICaseDescriptionCard = {
-    imageHref: string
-    title: string
-    description: string
-    theftDate: string
-    reportDate: string
-    location: string
+    imageHref: string | null
+    title: string | null
+    description: string | null
+    theftDate: string | null
+    reportDate: string | null
+    location: string | null
 }
 
 export default function CaseDescriptionCard({ imageHref, title, description, theftDate, reportDate, location }: ICaseDescriptionCard) {
