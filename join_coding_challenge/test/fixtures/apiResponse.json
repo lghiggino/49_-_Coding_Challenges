@@ -1,0 +1,711 @@
+{
+    "bikes": [
+        {
+            "date_stolen": 1646484436,
+            "description": null,
+            "frame_colors": [
+                "Green"
+            ],
+            "frame_model": "Rove ST",
+            "id": 1241517,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Kona",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "F1609 C9640",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.41
+            ],
+            "stolen_location": "Berlin, 10178, DE",
+            "thumb": null,
+            "title": "2016 Kona Rove ST",
+            "url": "https://bikeindex.org/bikes/1241517",
+            "year": 2016
+        },
+        {
+            "date_stolen": 1642579200,
+            "description": null,
+            "frame_colors": [
+                "Green"
+            ],
+            "frame_model": null,
+            "id": 1210385,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Ampler",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "AMP11508P",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.55,
+                13.21
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": null,
+            "title": "2020 Ampler",
+            "url": "https://bikeindex.org/bikes/1210385",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1638057600,
+            "description": "The bike has a silver aluminium frame with white \"Colossi\" sticker, Frame size is 50. I had a golden \"knog\" ring bell at the handlebar. The rest is black and minimalistic.",
+            "frame_colors": [
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "Cheeko",
+            "id": 1192873,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/500742/large_261707099_378183547416531_7733091221992454368_n-1.jpg",
+            "location_found": null,
+            "manufacturer_name": "Colossi",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "Unknown",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.51,
+                13.43
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/500742/small_261707099_378183547416531_7733091221992454368_n-1.jpg",
+            "title": "Colossi Cheeko",
+            "url": "https://bikeindex.org/bikes/1192873",
+            "year": null
+        },
+        {
+            "date_stolen": 1634176800,
+            "description": "",
+            "frame_colors": [
+                "Black",
+                "Blue"
+            ],
+            "frame_model": "Sirrus",
+            "id": 405302,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/152418/large_11616BE6-D0AC-4466-A48A-218F42D82CC0.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Specialized",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WSBC922004182N",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.38
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/152418/small_11616BE6-D0AC-4466-A48A-218F42D82CC0.jpeg",
+            "title": "2018 Specialized Sirrus",
+            "url": "https://bikeindex.org/bikes/405302",
+            "year": 2018
+        },
+        {
+            "date_stolen": 1629989555,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "chenoaHS40 Carbon",
+            "id": 1131253,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Simplon",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "1604000192",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.63,
+                13.2
+            ],
+            "stolen_location": "Hennigsdorf - DE",
+            "thumb": null,
+            "title": "2019 Simplon chenoaHS40 Carbon",
+            "url": "https://bikeindex.org/bikes/1131253",
+            "year": 2019
+        },
+        {
+            "date_stolen": 1622383200,
+            "description": null,
+            "frame_colors": [
+                "Orange",
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "Terra M-30",
+            "id": 1070657,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/439592/large_PXL_20210422_135515169.jpg",
+            "location_found": null,
+            "manufacturer_name": "Orbea",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "01190098565",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.5,
+                13.34
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/439592/small_PXL_20210422_135515169.jpg",
+            "title": "2020 Orbea Terra M-30",
+            "url": "https://bikeindex.org/bikes/1070657",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1621746000,
+            "description": "This is a custom touring build I made from the TSUNAMI (copied name, not Tsunami Bikes), 26\" mountain bike touring travel frame. I bought this in a clearance sale from Factory Five Bicycles Shanghai in 2018. \r\n\r\nhttps://www.taobao.com/list/item-amp/578037154005.htm\r\n\r\nThere is a link to the frameset. Mine is the black variety, but with a stripped, bare metal frame and black fork. ",
+            "frame_colors": [
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "26in Mountain Bike Touring",
+            "id": 837872,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/436617/large_DSC02695.JPG",
+            "location_found": null,
+            "manufacturer_name": "Custom",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "2016H058",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.5,
+                13.4
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/436617/small_DSC02695.JPG",
+            "title": "2016 Custom 26in Mountain Bike Touring",
+            "url": "https://bikeindex.org/bikes/837872",
+            "year": 2016
+        },
+        {
+            "date_stolen": 1614436200,
+            "description": "",
+            "frame_colors": [
+                "Blue"
+            ],
+            "frame_model": "RDL AL 6.0 19/20 bu/bu",
+            "id": 1011193,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/403441/large_IMG_4353.jpg",
+            "location_found": null,
+            "manufacturer_name": "Canyon bicycles",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "0001048600",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.38
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/403441/small_IMG_4353.jpg",
+            "title": "2020 Canyon bicycles RDL AL 6.0 19/20 bu/bu",
+            "url": "https://bikeindex.org/bikes/1011193",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1614373200,
+            "description": "Trekking/Commuting/Mountain eBike",
+            "frame_colors": [
+                "White"
+            ],
+            "frame_model": "Sduro",
+            "id": 1010778,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/403123/large_Screenshot_2021-02-26_222956.png",
+            "location_found": null,
+            "manufacturer_name": "Haibike",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "av18c22536",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.49,
+                13.43
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/403123/small_Screenshot_2021-02-26_222956.png",
+            "title": "2019 Haibike Sduro",
+            "url": "https://bikeindex.org/bikes/1010778",
+            "year": 2019
+        },
+        {
+            "date_stolen": 1613174229,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": null,
+            "id": 1005021,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Other",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "36872-1TKD68",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.55,
+                13.38
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": null,
+            "title": "Other",
+            "url": "https://bikeindex.org/bikes/1005021",
+            "year": null
+        },
+        {
+            "date_stolen": 1607076000,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "City bike",
+            "id": 955621,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/372421/large_F5E04B8E-31BF-4818-913C-49809CE465E0.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Derby Cycle",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "359570 003",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.51,
+                13.41
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/372421/small_F5E04B8E-31BF-4818-913C-49809CE465E0.jpeg",
+            "title": "2017 Derby Cycle City bike",
+            "url": "https://bikeindex.org/bikes/955621",
+            "year": 2017
+        },
+        {
+            "date_stolen": 1606704699,
+            "description": null,
+            "frame_colors": [
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "Modell: Katarga EVO c7r",
+            "id": 954063,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/369948/large_IMG-20201129-WA0001.jpg",
+            "location_found": null,
+            "manufacturer_name": "Katarga",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "AA80908951",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.56,
+                13.51
+            ],
+            "stolen_location": "Berlin Hohenschönhausen - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/369948/small_IMG-20201129-WA0001.jpg",
+            "title": "2020 Katarga Modell: Katarga EVO c7r",
+            "url": "https://bikeindex.org/bikes/954063",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1606202151,
+            "description": null,
+            "frame_colors": [
+                "Black",
+                "Blue"
+            ],
+            "frame_model": "Supermetro",
+            "id": 952250,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Koga-Miyata",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "KG1514713",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.4
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": null,
+            "title": "2016 Koga-Miyata Supermetro",
+            "url": "https://bikeindex.org/bikes/952250",
+            "year": 2016
+        },
+        {
+            "date_stolen": 1605474000,
+            "description": "Somebody stole my cycle. I need your help. Please",
+            "frame_colors": [
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "TR 100 RR MTB GREY",
+            "id": 949092,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/364295/large_CAE2EDB2-B0D1-49A2-BB83-6DAFA0AFDAC9.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Decathlon",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "009364045578",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.55,
+                13.37
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/364295/small_CAE2EDB2-B0D1-49A2-BB83-6DAFA0AFDAC9.jpeg",
+            "title": "2020 Decathlon TR 100 RR MTB GREY",
+            "url": "https://bikeindex.org/bikes/949092",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1605196800,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "UDX",
+            "id": 947809,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/361980/large_10B66BDB-D1BB-4D8F-AD87-8563DDE06485.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Urbandrivestyle",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "06092020",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.5,
+                13.46
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/361980/small_10B66BDB-D1BB-4D8F-AD87-8563DDE06485.jpeg",
+            "title": "2020 Urbandrivestyle UDX",
+            "url": "https://bikeindex.org/bikes/947809",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1605189600,
+            "description": "BIKE STOLEN IN BERLIN (10777)\r\n\r\nHandlebar: BLACK\r\nFrame\tAluminium 6061 T6 Superlite, Road Comfort Geometry, Fender Option, 12x142mm\r\nColour\tgreyblue´n´coral\r\nFork\tCUBE CSL Race Disc,One Piece 3D-Forged Steerer/Crown,Carbon Blades,1 1/8\"-1 1/4\"\r\nBrakes\tTRP Spyre MD-C610C, Flat Mount\r\nHeadset\tFSA Z-t, Top Zero-Stack 1 1/8\" (OD 44mm), Bottom Integrated 1 1/4\"\r\nStem\tCUBE Performance Stem Pro, 31.8mm\r\nHandlebar\tCUBE Compact Race Bar\r\nBar grips\tCUBE Grip Control\r\nSaddle\tNatural Fit Active WS\r\nSeatpost\tCUBE Performance Post, 27.2mm\r\nSeat clamp\tCUBE Screwlock, 31.8mm\r\nCrankset\tShimano Sora FC-R3000, 9-Speed, 50x34T, 170mm\r\nRear derailleur\tShimano Sora RD-R3000, 9-Speed\r\nGear shifters\tShimano Sora ST-R3000\r\nFront derailleur\tShimano Sora FD-R3000-BM, 31.8mm Clamp, 2-Speed\r\nCassette\tShimano CS-HG200, 11-34T\r\nChain\tKMC X9\r\nTyres\tConti Ultra Sport 2, 25-622\r\nWheelset\tCUBE RA 0.8 Aero Disc, 12x100mm / 12x142mm, 6-Bolt\r\nPedals\tnot included\r\nTotal weight\tstarting from 9,9 kg",
+            "frame_colors": [
+                "Teal"
+            ],
+            "frame_model": "Aluminium 6061 T6 Superlite, Road Comfort Geometry, Fender Option, 12x142mm",
+            "id": 947953,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/362104/large_WhatsApp_Image_2020-11-13_at_00.13.41.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Cube",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "wow96963",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.5,
+                13.34
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/362104/small_WhatsApp_Image_2020-11-13_at_00.13.41.jpeg",
+            "title": "2019 Cube Aluminium 6061 T6 Superlite, Road Com...",
+            "url": "https://bikeindex.org/bikes/947953",
+            "year": 2019
+        },
+        {
+            "date_stolen": 1604401200,
+            "description": "Koga Supermetro(RH53), RahmenNr KG1514713, 11-Gang-Shimano-Kettenschaltung, Schutzbleche, Gepäckträger, Luftpumpenhalterung von der Strebe des Gepäckträgers abgefräst, Pitlocks an den Rädern, Ortliebtasche rechts mit kleinem silbernen Vorhängeschloss befestigt, Ständer, Aufkleber von Radsport Sonntag am Rahmen (im unteren Bereich an der Strebe, die zum Sattel führt), Original-Sattel, Griffe musste ich durch komplett schwarze ersetzen, blaue Klingel, Halterung für Batterielicht vorne, USB-Rücklicht (Büchel) war dran, Räder PitLock-gesichert \r\n",
+            "frame_colors": [
+                "Black",
+                "Blue"
+            ],
+            "frame_model": "Supermetro",
+            "id": 952252,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/367251/large_CF333029-D635-4562-8648-F23F78B24EB1.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Koga-Miyata",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "KG1514713",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.4
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/367251/small_CF333029-D635-4562-8648-F23F78B24EB1.jpeg",
+            "title": "2016 Koga-Miyata Supermetro",
+            "url": "https://bikeindex.org/bikes/952252",
+            "year": 2016
+        },
+        {
+            "date_stolen": 1603699200,
+            "description": "",
+            "frame_colors": [
+                "Silver, gray or bare metal"
+            ],
+            "frame_model": "Rove DL",
+            "id": 941119,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/353907/large_rove_dl.jpg",
+            "location_found": null,
+            "manufacturer_name": "Kona",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "F10AL3697",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.55,
+                13.41
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/353907/small_rove_dl.jpg",
+            "title": "2021 Kona Rove DL",
+            "url": "https://bikeindex.org/bikes/941119",
+            "year": 2021
+        },
+        {
+            "date_stolen": 1603317600,
+            "description": "",
+            "frame_colors": [
+                "Brown",
+                "Blue"
+            ],
+            "frame_model": "Sirrus Comp Disc",
+            "id": 937508,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/349578/large_465A1E21-A678-41F7-A2B1-9D5EC9478633.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Specialized",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WSBC602241960J",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.44,
+                13.31
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/349578/small_465A1E21-A678-41F7-A2B1-9D5EC9478633.jpeg",
+            "title": "2015 Specialized Sirrus Comp Disc",
+            "url": "https://bikeindex.org/bikes/937508",
+            "year": 2015
+        },
+        {
+            "date_stolen": 1603317600,
+            "description": "",
+            "frame_colors": [
+                "Yellow or Gold",
+                "Black"
+            ],
+            "frame_model": "Pitch Sport",
+            "id": 937513,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/349586/large_Specialized.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Specialized",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WSBC724017848R",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.44,
+                13.31
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/349586/small_Specialized.jpeg",
+            "title": "2020 Specialized Pitch Sport",
+            "url": "https://bikeindex.org/bikes/937513",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1603317600,
+            "description": "",
+            "frame_colors": [
+                "Black",
+                "Green"
+            ],
+            "frame_model": "Epic HT Comp",
+            "id": 937507,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/349581/large_C4BDB4A4-864A-402B-B131-BFEB9B1D0B74.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Specialized",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WSBC014044634P",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.44,
+                13.31
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/349581/small_C4BDB4A4-864A-402B-B131-BFEB9B1D0B74.jpeg",
+            "title": "2020 Specialized Epic HT Comp",
+            "url": "https://bikeindex.org/bikes/937507",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1602154968,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "Nightflight Premium",
+            "id": 931605,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Raleigh",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "HS690411",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.53,
+                13.45
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": null,
+            "title": "2020 Raleigh Nightflight Premium",
+            "url": "https://bikeindex.org/bikes/931605",
+            "year": 2020
+        },
+        {
+            "date_stolen": 1601737200,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "TS4 Edition",
+            "id": 933503,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/344761/large_hofschen-bike_1.png",
+            "location_found": null,
+            "manufacturer_name": "Rabeneick",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "PBTGA76469",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.31
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/344761/small_hofschen-bike_1.png",
+            "title": "2018 Rabeneick TS4 Edition",
+            "url": "https://bikeindex.org/bikes/933503",
+            "year": 2018
+        },
+        {
+            "date_stolen": 1599091200,
+            "description": null,
+            "frame_colors": [
+                "Blue"
+            ],
+            "frame_model": null,
+            "id": 862812,
+            "is_stock_img": false,
+            "large_img": null,
+            "location_found": null,
+            "manufacturer_name": "Fuji",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WBD0551494L",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.52,
+                13.44
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": null,
+            "title": "2016 Fuji",
+            "url": "https://bikeindex.org/bikes/862812",
+            "year": 2016
+        },
+        {
+            "date_stolen": 1594922400,
+            "description": null,
+            "frame_colors": [
+                "Black"
+            ],
+            "frame_model": "ChargerB1",
+            "id": 790656,
+            "is_stock_img": false,
+            "large_img": "https://files.bikeindex.org/uploads/Pu/287023/large_Ec_vTSuWkAU1Nvm.jpeg",
+            "location_found": null,
+            "manufacturer_name": "Riese und Müller",
+            "external_id": null,
+            "registry_name": null,
+            "registry_url": null,
+            "serial": "WRJ2CHRM3ED003957",
+            "status": "stolen",
+            "stolen": true,
+            "stolen_coordinates": [
+                52.5,
+                13.38
+            ],
+            "stolen_location": "Berlin - DE",
+            "thumb": "https://files.bikeindex.org/uploads/Pu/287023/small_Ec_vTSuWkAU1Nvm.jpeg",
+            "title": "2016 Riese und Müller ChargerB1",
+            "url": "https://bikeindex.org/bikes/790656",
+            "year": 2016
+        }
+    ]
+}
