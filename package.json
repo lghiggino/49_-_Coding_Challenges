@@ -1,0 +1,17 @@
+{
+  "name": "desafiobycoders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lghiggino/desafio-ruby-on-rails.git",
+  "author": "lghiggino <lghiggino@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jest": "^27.5.1",
+    "node": "^17.7.2",
+    "normalize-text": "^2.4.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  }
+}
