@@ -1,4 +1,4 @@
-const { cnabParser, cnabRowSplitter} = require("../src/cnabParser")
+const { cnabParser, cnabRowSplitter} = require("../cnabParser")
 const fs = require("fs");
 const path = require("path");
 const normalizeText = require("normalize-text")
@@ -46,3 +46,11 @@ describe("split text rows into individual strings", () => {
         expect(array.length).toBe(21)
     })
 })
+
+describe("Exibir uma lista das operações importadas por lojas", () => {
+    it ("should exibit a list of operations per store", () => {
+        const array = cnabRowSplitter(cnabTextBlock)
+    })
+})
+
+describe("Exibir a partir de uma lista um totalizador do saldo em conta", () => {})
