@@ -1,3 +1,9 @@
+function cnabRowSplitter(cnabTextBlock) {
+    const array = cnabTextBlock.split("\n")
+    const filteredEmpties = array.filter(item => item.length !== 0)
+    return filteredEmpties
+}
+
 function cnabParser(string) {
     const tipo = string.slice(0, 1)
     const data = string.slice(1, 9)
@@ -20,4 +26,4 @@ function cnabParser(string) {
     }
 }
 
-module.exports = cnabParser
+module.exports = { cnabRowSplitter, cnabParser }

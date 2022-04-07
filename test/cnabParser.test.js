@@ -1,10 +1,10 @@
-const cnabParser = require("../src/cnabParser")
+const { cnabParser, cnabRowSplitter} = require("../src/cnabParser")
 const fs = require("fs");
 const path = require("path");
 const normalizeText = require("normalize-text")
 
 const file = path.join(__dirname, "../test/fixtures", "CNAB.txt");
-const fdr = fs.readFileSync(file, "utf8", function (err, data) {
+const cnabTextBlock = fs.readFileSync(file, "utf8", function (err, data) {
     return data;
 });
 
@@ -40,3 +40,9 @@ describe('Line By Line', () => {
 
 })
 
+describe("split text rows into individual strings", () => {
+    it("should split the txt file into 21 separated string", () => {
+        const array = cnabRowSplitter(cnabTextBlock)
+        expect(array.length).toBe(21)
+    })
+})
