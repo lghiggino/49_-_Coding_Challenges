@@ -21,9 +21,22 @@ describe('Line By Line', () => {
         expect(parsed.valor).toBe("0000014200")
         expect(parsed.cpf).toBe("09620676017")
         expect(parsed.cartao).toBe("4753****31531534")
-        expect(parsed.hora).toBe("53    ")
+        expect(parsed.hora).toBe("53")
         expect(parsed.donoDaLoja).toBe("JOÃO MACEDO")
         expect(parsed.nomeDaLoja).toBe("BAR DO JOÃO")
     })
 
+    it("should parse a fullfilled string", () => {
+        const parsed2 = cnabParser(string2)
+        expect(parsed2.tipo).toBe("5")
+        expect(parsed2.data).toBe("20190301")
+        expect(parsed2.valor).toBe("0000013200")
+        expect(parsed2.cpf).toBe("55641815063")
+        expect(parsed2.cartao).toBe("3123****76871456")
+        expect(parsed2.hora).toBe("07")
+        expect(parsed2.donoDaLoja).toBe("MARIA JOSEFINA")
+        expect(parsed2.nomeDaLoja).toBe("LOJA DO Ó - MATRIZ")
+    })
+
 })
+
