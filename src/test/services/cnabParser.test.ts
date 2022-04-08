@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import CnabParser from '../services/cnabParser';
+import CnabParser from '../../services/cnabParser';
 
-const file = path.join(__dirname, '../test/fixtures', 'CNAB.txt');
+const file = path.join(__dirname, '../fixtures', 'CNAB.txt');
 const cnabTextBlock = fs.readFileSync(file, 'utf8');
 
 const cnabParser = new CnabParser();
@@ -42,19 +42,5 @@ describe('split text rows into individual strings', () => {
     it('should split the txt file into 21 separated string', () => {
         const array = cnabParser.rowSplit(cnabTextBlock);
         expect(array.length).toBe(21);
-    });
-});
-
-xdescribe('Exibir uma lista das operações importadas por lojas', () => {
-    it('should exibit a list of operations per store', () => {
-        const array = cnabParser.rowSplit(cnabTextBlock);
-        expect(array.length).toBe(3);
-    });
-});
-
-xdescribe('Exibir a partir de uma lista um totalizador do saldo em conta', () => {
-    it('should exibit a list of operations per store', () => {
-        const array = cnabParser.rowSplit(cnabTextBlock);
-        expect(array.length).toBe(3);
     });
 });
