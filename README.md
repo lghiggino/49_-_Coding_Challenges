@@ -85,3 +85,18 @@ Este desafio foi baseado neste outro desafio: https://github.com/lschallenges/da
 ---
 
 Boa sorte!
+
+
+
+### Criando a imagem docker:
+```
+docker run --name cnabPg -e POSTGRES_PASSWORD=admin -p 5432:5432 -d postgres
+```
+
+
+### Iniciando a imagem docker: 
+```
+docker start cnabPg
+```
+
+
