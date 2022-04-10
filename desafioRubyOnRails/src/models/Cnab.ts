@@ -9,8 +9,8 @@ import {
 
 @Entity('cnab')
 export default class Cnab {
-    @PrimaryGeneratedColumn('uuid')
-    id: string;
+    @PrimaryGeneratedColumn('increment')
+    id?: string;
 
     @Column()
     transactionTypeCode: string;
@@ -45,12 +45,12 @@ export default class Cnab {
     })
     storeName: string;
 
-    @CreateDateColumn({ name: 'created_At' })
-    createdAt: Date;
+    @CreateDateColumn({ name: 'created_At', nullable: true })
+    createdAt?: Date;
 
-    @UpdateDateColumn({ name: 'update_At' })
-    updatedAt: Date;
+    @UpdateDateColumn({ name: 'update_At', nullable: true, default: null })
+    updatedAt?: Date;
 
-    @DeleteDateColumn({ name: 'deleted_At' })
-    deletedAt: Date;
+    @DeleteDateColumn({ name: 'deleted_At', nullable: true, default: null })
+    deletedAt?: Date;
 }
